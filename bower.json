@@ -4,7 +4,7 @@
   "author": "Romain Guilloteau <romain.guilloteau.pro@gmail.com>",
   "license": "MIT",
   "private": true,
-  "dependencies": {
-    "normalize-css": "~2.1"
+  "devDependencies": {
+    "normalize-css": "~3.0.0"
   }
 }
