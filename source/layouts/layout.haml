@@ -1,0 +1,14 @@
+!!!5
+%html{ html_attrs("en") }
+  %head
+    %meta{ charset: "utf-8" }
+    %meta{ "http-equiv" => "x-ua-compatible", content: "ie=edge,chrome=1" }
+    %title The Middleman
+    %meta{ name: "description", content: "" }
+    %meta{ name: "author", content: "Guilloteau Romain" }
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0" }
+    %meta{ name: "robots", content: "none" }
+    = stylesheet_link_tag "application"
+    = javascript_include_tag  "application"
+  %body
+    = yield
